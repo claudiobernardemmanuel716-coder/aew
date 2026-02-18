@@ -1,3 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background-color: #f0f0f0;
+}
+
 .class-container{
 	display: flex;
 	justify-content: center;
@@ -13,13 +23,9 @@
 	margin: 20px;
 }
 .card img{
-	width:300px;
-	height: 100px;
+	width:100%;
+	height: auto;
 }
-
-	<!-- width:100%;
-	height: auto; -->
-
 .card-content{
 	padding:16px;
 }
@@ -41,4 +47,5 @@
 	margin-top: 16px;
 	color:#fff;
 }
+
 
